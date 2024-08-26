@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+
+@media (min-width: 300px) {
+  .Warn {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .Warn {
+    width: 50%;
+  }
+}
