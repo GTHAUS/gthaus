@@ -4,8 +4,16 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1400px) {
   .Warn {
     width: 50%;
+    transform: translateX(50%) translateY(25%);
   }
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
